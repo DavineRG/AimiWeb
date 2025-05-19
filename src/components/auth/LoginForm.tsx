@@ -13,7 +13,6 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [showForgotPassword, setShowForgotPassword] = useState(false);
-  const [mobile, setMobile] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
   const handleLogin = async (e: React.FormEvent) => {
